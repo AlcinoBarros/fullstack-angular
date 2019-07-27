@@ -1,7 +1,7 @@
 export default class OSService{
     constructor($http) {
         this.http = $http;
-        this.url = "http://localhost:3000/os";
+        this.url = "https://fullstack-nodejs-labtrack.herokuapp.com/os";
 
     }
 
